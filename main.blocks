@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="8U,RvJ0BqLyHQe/gHA`)">Player</variable><variable type="KIND_SpriteKind" id="T|(Em]ZY(OB/Ay+^(6D*">Projectile</variable><variable type="KIND_SpriteKind" id="O.,mf,R;,xb4:=gV:CfM">Food</variable><variable type="KIND_SpriteKind" id="ZE1SUV3e{Gnk,yuCcxb0">Enemy</variable><variable id="k}t.q{1*q]i5e|U[4nL2">mySprite</variable><variable id="/MpdGgZbqk[YGE)-z7le">mySprite2</variable><variable id="?8d;kgaCe{uSk}`ghQXc">polarBear</variable></variables><block type="pxt-on-start" id="R*edw;XRfD(n,k]%-PIP" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor" id="xLU|3j_$CREEYuR*hg8O"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="variables_set" id="W-0@/IZ!`G_|;%OkOa_c"><field name="VAR" id="?8d;kgaCe{uSk}`ghQXc">polarBear</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="2f{@Ap4)XE*hTKQrWEq`"><value name="img"><shadow type="screen_image_picker" id="R1qw!wW.{LUH}XYYH$Jk"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . c c c . . . . . c c c . . 
+. . . c f c c c c c c c f c . . 
+. . . c c c c c c c c c c c . . 
+. . . . c c c c c c c c c . . . 
+. . . . c c 6 c c c 6 c c . . . 
+. . . . c c c c c c c c c . . . 
+. . . . c 3 c c c c c 3 c . . . 
+. . . . c c c c b c c c c . . . 
+. . . . c c c 6 c 6 c c c . . . 
+. . . . . c c c c c c c . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"R1qw!wW.{LUH}XYYH$Jk"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Y,r[ubX@!zfMkNM-se.G"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="6oln3JNJDavsksm{4ycU"><value name="sprite"><block type="variables_get" id="jgq?Klk.~.3M-Txe3](*"><field name="VAR" id="?8d;kgaCe{uSk}`ghQXc">polarBear</field></block></value><value name="x"><shadow type="positionPicker" id="F#},e3l)khC+CMN*I3`D"><field name="index">20</field></shadow></value><value name="y"><shadow type="positionPicker" id="j:U(@:4[=rE/rHsO*SFR"><field name="index">10</field></shadow></value><next><block type="game_control_sprite" id="77H9`{H)U:/^c#IiW6m_"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Eeldkz*q#/FQD?3~6`)G"><field name="VAR" id="?8d;kgaCe{uSk}`ghQXc">polarBear</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="fs;Y.Lz%52^7UpEW^b#["><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Ix3dC[L}0;P4PplREf(6"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="mE*7K,P-}f(5MSSfaXf9"><value name="sprite"><block type="variables_get" id="ixR:?FeS0)dC~#%m=;z/"><field name="VAR" id="?8d;kgaCe{uSk}`ghQXc">polarBear</field></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>

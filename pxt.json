@@ -1,0 +1,48 @@
+{
+    "name": "15/10/2021 Game",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.6.24",
+        "tag": "v1.6.24",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/5bea1575ea693e0648a647cbd86cda9776d58f48",
+        "target": "1.6.24",
+        "pxt": "7.2.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#172863",
+        "#15bce2",
+        "#a7f4f6",
+        "#6aebec",
+        "#235e92",
+        "#329db1",
+        "#1b516e",
+        "#34e8d5",
+        "#218c9e",
+        "#0f99d2",
+        "#25b4d4",
+        "#c9ffff",
+        "#e8e7ba",
+        "#285ab3",
+        "#89eadd",
+        "#a99ae8"
+    ]
+}
